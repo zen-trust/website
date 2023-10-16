@@ -1,0 +1,36 @@
+{
+  "name": "zen-trust-website",
+  "version": "1.0.0",
+  "description": "Website for the Zen Trust project (https://zen-trust.net)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zen-trust/website.git"
+  },
+  "keywords": [
+    "zen-trust",
+    "ssh",
+    "ca",
+    "certificate-authority",
+    "website",
+    "static-site",
+    "vitepress",
+    "vue"
+  ],
+  "author": "Moritz Friedrich <m@9dev.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zen-trust/website/issues"
+  },
+  "homepage": "https://github.com/zen-trust/website#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.22",
+    "vue": "^3.3.4"
+  }
+}
